@@ -35,7 +35,8 @@ button {
     color: #fff;
 }
 
-li,a{
+li,
+a {
     list-style: none;
     text-decoration: none;
 }
@@ -512,6 +513,12 @@ country Card
     color: rgba(255, 255, 255, 0.5);
 }
 
+@media screen and (max-width: 760px) {
+    .section-searchFilter{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
 /* ------------------ 
 contact us page 
 --------------- */
